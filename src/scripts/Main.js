@@ -1,17 +1,2 @@
-import ComponentFactory from './ComponentFactory';
-import Icons from './utils/Icons';
-
-class Main {
-  constructor() {
-    this.init();
-  }
-
-  init() {
-    document.documentElement.classList.add('has-js');
-
-    new ComponentFactory();
-
-    Icons.load();
-  }
-}
-new Main();
+// Bienvenue dans le JS. Si tu veux mettre du scrolly dans ton affaire
+// Je t'y encourage quand tu auras fini la partie php :)
